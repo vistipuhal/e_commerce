@@ -9,9 +9,10 @@
 
 #### For inserting item in db:http://localhost:8082/omnicuris/api/items/create (POST)
 
-**Request**
+
 
 ```
+
 	{
         	"id": 1,
         	"name": "Samsung Galaxy",
@@ -24,12 +25,13 @@
 
 #### For getting all items: http://localhost:8082/omnicuris/api/item/find/all (GET)
 
-#### For deleting item by id: http://localhost:8082/omnicuris/api/item/delete/{itemID}(DELETE)
+#### For deleting item by id: http://localhost:8082/omnicuris/api/item/delete/{itemID} (DELETE)
 
 
 #### For creating order : http://localhost:8082/omnicuris/api/order/create (POST)
-**Request**
+
 ```
+
 {
 	"itemList":[
 	{
