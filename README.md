@@ -1,22 +1,23 @@
-# e_commerce
-Spring boot Rest API for e commerce website with CRUD operations on Orders and Items 
+# e_commerce : Spring boot Rest API for e commerce website with CRUD operations on Orders and Items 
 
 
-##README file describing the controller endpoints for the e-commerce API
+# README file describing the controller endpoints for the e-commerce API
 
 
-#Controller Endpoints:
+# Controller Endpoints:
 
 
-#For inserting item in db:http://localhost:8082/omnicuris/api/items/create (POST)
+# For inserting item in db:http://localhost:8082/omnicuris/api/items/create (POST)
 
 Request:
+```
 	{
         	"id": 1,
         	"name": "Samsung Galaxy",
         	"price": 20000,
         	"imageURL": "http://samsung.com/picture/galaxy"
 	}
+```
 	
 # For fetching item with id : http://localhost:8082/omnicuris/api/item/find/{itemID} (GET)
 
@@ -27,6 +28,7 @@ Request:
 
 # For creating order : http://localhost:8082/omnicuris/api/order/create (POST)
 Request:
+```
 {
 	"itemList":[
 	{
@@ -43,5 +45,5 @@ Request:
 	]
 	
 }
-
+```
 # For fetching all orders : http://localhost:8082/omnicuris/api/order/find/all (GET)
